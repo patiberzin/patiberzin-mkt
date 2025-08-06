@@ -1,0 +1,302 @@
+/* Menu */
+
+.container-menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav {
+    display: flex;
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.nav li a {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--cor-preto);
+}
+
+.nav li a:hover {
+    color: var(--cor-intermediaria);
+}
+
+/*Header*/
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 3.75rem;
+    background: linear-gradient(90deg, var(--cor-terciaria), var(--cor-secundaria));
+}
+
+.titles {
+    max-width: 40%;
+}
+
+.titles h1 {
+    font-family: "Young Serif", serif;
+    font-size: 3rem;
+}
+
+.titles p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 2rem;
+    margin-bottom: 8px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+/*Peças que conectam*/
+
+.container-pieces {
+    max-width: 60%;
+    margin: 120px auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.container-pieces h2,
+.container-services h2 {
+    font-family: "Roboto-Condensed", sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.container-cards {
+    display: flex;
+    gap: 1rem;
+}
+
+.card-purple {
+    background-color: var(--cor-principal);
+    border: 3px solid var(--cor-preto);
+    padding: 2.5rem 2rem;
+    flex: 1;
+}
+
+.card-white {
+    background-color: var(--cor-branco);
+    border: 3px solid var(--cor-preto);
+    padding: 2.5rem 2rem;
+    flex: 1;
+}
+
+.card-purple h3,
+.card-white h3,
+.card-lp h3,
+.card-content h3 {
+    font-family: "Big Shoulders", sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-purple p,
+.card-white p,
+.card-lp p,
+.card-content p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1rem;
+    margin: 0.5rem 1rem;
+}
+
+/*Serviços*/
+
+.container-services {
+    max-width: 60%;
+    margin: 120px auto;
+}
+
+.container-sale {
+    display: flex;
+    gap: 30px;
+}
+
+.card-lp {
+    background-color: var(--cor-principal);
+    border: 3px solid var(--cor-preto);
+    padding: 5rem 2rem;
+}
+
+.card-content {
+    background-color: var(--cor-branco);
+    border: 3px solid var(--cor-preto);
+    padding: 5rem 2rem;
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+/*Footer*/
+
+.container-footer {
+    padding: 2rem;
+    background: linear-gradient(90deg, var(--cor-terciaria), var(--cor-secundaria));
+    color: var(--cor-branco);
+}
+
+ /*Responsivo*/
+  
+      /*Responsivo*/
+
+@media (max-width: 1250px) {
+    .btn {
+    padding: 1rem 2rem;
+      font-family: "Roboto Condensed", sans-serif;
+      font-size: 1.6rem;
+    }
+  }
+  
+  @media (max-width: 1184px) {
+    .container-menu img {
+        width: 120px;
+        height: 71px;
+        margin: 3rem;
+    }
+    .nav {
+        padding: 4rem;
+    }
+    .nav li a {
+        font-size: 1.2rem;
+    }
+  
+    .titles h1 {
+        font-size: 2rem;
+    }
+
+    .titles p {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+      }  
+    
+  
+  .btn {
+    padding: 1rem 2rem;
+      font-size: 1.2rem;
+    }
+    .container-pieces h2,
+    .container-services h2 {
+        font-size: 2rem;
+    }
+  
+  .card-purple h3,
+  .card-white h3,
+  .card-lp h3,
+  .card-content h3 {
+    font-size: 1.6rem;
+  }
+  
+  }
+  
+  @media (max-width: 892px) {
+    .hamburger {
+        display: block;
+        font-size: 2rem;
+        cursor: pointer;
+        background: none;
+        border: none;
+      }
+  
+      .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%; /* abre logo abaixo do menu */
+        left: 0;
+        width: 100%;
+        background-color: var(--cor-fundo);
+        border-top: 1px solid var(--cor-preto);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+  
+      .nav-menu.active {
+        display: block;
+      }
+  
+      .nav {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+      }
+  
+      .nav li a {
+        font-size: 1.2rem;
+        font-weight: bold;
+      }
+  
+    .container-menu {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem;
+        position: relative;
+        z-index: 10;
+      }
+      
+    .container-header {
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem;
+    }
+  
+    .container-header img {
+      display: none;
+    }
+  
+    .titles {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .titles h1 {
+      font-size: 1.6rem;
+    }
+
+    .titles p {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+  
+    .container-cards,
+    .container-sale {
+      flex-direction: column;
+      display: flex;
+    }
+  
+    .card-purple,
+    .card-white,
+    .card-lp,
+    .card-content {
+      margin-bottom: 1rem;
+    }
+  
+    .container-pieces,
+    .container-services {
+      max-width: 90%;
+      margin: 2rem auto;
+    }
+  
+    .btn {
+      font-size: 1rem;
+      padding: 0.75rem 1.5rem;
+    }
+  
+    .container-btn {
+      margin-top: 1rem;
+    }
+  
+    /* Ajuste do footer */
+    .container-footer {
+      font-size: 0.9rem;
+      text-align: center;
+    }
+  }

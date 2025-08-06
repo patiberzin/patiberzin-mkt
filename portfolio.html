@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pati Berzin</title>
+
+    <link rel="stylesheet" href="./css/colors.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/portfolio.css" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+    <menu class="container-menu">
+        <img src="./imgs/marca.png" alt="marca" class="logo" width="216" height="122" />
+    
+        <div class="hamburger" id="hamburger">
+          &#9776;
+        </div>
+    
+        <nav class="nav-menu" id="nav-menu">
+          <ul class="nav">
+            <li><a href="index.html">Início</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contato.html">Sobre e Contato</a></li>
+          </ul>
+        </nav>
+      </menu>
+    
+      <div class="line-purple"></div>
+      <div class="line-orange"></div>
+
+      <section class="container-header">
+        <div class="titles">
+          <h1>Portfólio</h1>
+          <p>Toda criação é resposta a um problema bem entendido.</p>
+          <a href="contato.html" class="btn">Quero mais informações</a>
+        </div>
+        <img src="./imgs/lamp.png" alt="lamp" width="272" height="440" class="lamp-img" />
+      </section>
+
+      <section class="container-portfolio">
+        <h2><img src="./imgs/quebra.png" alt="quebra-cabeca" class="quebra" />Landing Pages</h2>
+  
+        <div class="card-portfolio">
+          <div class="card-item">
+            <img src="./imgs/lp-colinha.png" alt="lp-colinha" width="556" height="360" />
+            <div class="item">
+              <h3>Página de Venda de Cursos</h3>
+              <p>
+                Esta página utiliza a mesma linguagem das redes sociais para gerar
+                proximidade com o público-alvo. As cores,
+                imagens, elementos gráficos são todos pensados para atração e venda.
+                <a href="https://lp-colinha-academy.vercel.app/" target="_blank" class="btn-veja">Veja mais</a>
+              </p>
+             
+            </div>
+          </div>
+  
+          <div class="card-item">
+            <img src="./imgs/lp-box.png" alt="lp-box" width="556" height="360" />
+            <div class="item">
+              <h3>Página de Venda de Livros</h3>
+              <p>
+                Esta página fictícia foi feita como um exercício de expansão, para a
+                venda de livros da série "Os Bridgertons". Nela você tem um design
+                leve, clássico, e a copy pensada em conversão.
+                <a href="https://lp-bridgerton.vercel.app/" target="_blank" class="btn-veja">Veja mais</a>
+              </p>
+             
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container-contents">
+        <h2><img src="./imgs/quebra.png" alt="quebra-cabeca" class="quebra" />Conteúdo Instagram</h2>
+      
+        <!-- ---------- EDITORIALS (desktop) + HAMBURGER (mobile) ---------- -->
+        <div class="editorials-wrapper">
+          <button class="editorials-hamburger" id="editorialToggle" aria-expanded="false" aria-controls="editorialsList">
+            ☰ <span class="sr-only">Abrir opções de editoria</span>
+          </button>
+      
+          <ul class="editorials" id="editorialsList" role="tablist">
+            <li><button class="editorial-btn ativa" data-target="sec-tecnologia" role="tab" aria-selected="true">Tecnologia</button></li>
+            <li><button class="editorial-btn" data-target="sec-em-breve-1" role="tab" aria-selected="false">Em breve</button></li>
+            <li><button class="editorial-btn" data-target="sec-em-breve-2" role="tab" aria-selected="false">Em breve</button></li>
+          </ul>
+        </div>
+      
+        <!-- ---------- SECTIONS: uma por editorial ---------- -->
+        <!-- 1) Tecnologia (ativa por padrão) -->
+        <div class="editorial-section ativo" id="sec-tecnologia" data-section>
+          <!-- aqui vai seu slideshow existente (mantive sua estrutura) -->
+          <div class="slideshow-container">
+            <div class="slideshow-images">
+              <div class="slide"><img src="./imgs/1.png" alt="img1"></div>
+              <div class="slide"><img src="./imgs/2.png" alt="img2"></div>
+              <div class="slide"><img src="./imgs/3.png" alt="img3"></div>
+              <div class="slide"><img src="./imgs/4.png" alt="img4"></div>
+              <div class="slide"><img src="./imgs/5.png" alt="img5"></div>
+              <div class="slide"><img src="./imgs/6.png" alt="img6"></div>
+              <div class="slide"><img src="./imgs/7.png" alt="img7"></div>
+            </div>
+      
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          </div>
+      
+          <div class="container-case">
+            <h3>Marca: Colinha Frontend</h3>
+            <p>Criei esta marca em 2020 como um projeto social para ajudar iniciantes em Frontend.</p>
+            <p>O post acima é um bom exemplo dessa proposta — alcançou 3.200 curtidas, 32 comentários e 4.100 salvamentos.</p>
+            <a href="contato.html" class="btn">Quero mais informações</a>
+          </div>
+        </div>
+      
+        <!-- 2) Em breve 1 (conteúdo placeholder; substitua depois) -->
+        <div class="editorial-section" id="sec-em-breve-1" data-section hidden>
+          <div class="container-case">
+            <h3>Em breve — editorial 1</h3>
+            <p>Conteúdo em desenvolvimento. Aqui vai o carrossel / imagens desta editoria quando pronto.</p>
+          </div>
+        </div>
+      
+        <!-- 3) Em breve 2 (placeholder) -->
+        <div class="editorial-section" id="sec-em-breve-2" data-section hidden>
+          <div class="container-case">
+            <h3>Em breve — editorial 2</h3>
+            <p>Conteúdo em desenvolvimento.</p>
+          </div>
+        </div>
+      </section>
+
+      <footer class="container-footer">
+        Site construído por Pati Berzin - Alguns direitos reservados
+      </footer>
+    
+      <script src="./js/script.js"></script>
+</body>
+</html>
