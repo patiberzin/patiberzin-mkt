@@ -201,6 +201,7 @@
     background: linear-gradient(90deg, var(--cor-terciaria), var(--cor-secundaria));
     color: var(--cor-branco);
     align-items: center;
+    width: 100%;
 }
 
 .p-footer,
