@@ -151,6 +151,10 @@
   display: flex;
   align-items: center;
 }
+
+.lista-footer a:hover {
+  transform: translate(-1px, -1px);
+}
   
       /*Responsivo*/
 
