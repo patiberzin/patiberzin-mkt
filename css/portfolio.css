@@ -164,7 +164,6 @@
   background-color: var(--cor-branco);
 }
 
-/* Seções de editorial - só uma visível (por padrão) */
 .editorial-section { display: block; }
 .editorial-section[hidden] { display: none; }
 
@@ -195,16 +194,30 @@
     margin: 3rem 1rem;
   }
 
+  .container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: linear-gradient(90deg, var(--cor-terciaria), var(--cor-secundaria));
+    color: var(--cor-branco);
+    align-items: center;
+}
+
+.p-footer,
+.lista-footer a {
+  display: flex;
+  align-items: center;
+}
+
+.lista-footer a:hover {
+  transform: translate(-1px, -1px);
+}
+
   /*Responsivo*/
 
-  /* RESPONSIVO: a partir de 1131px (seu ponto crítico), usamos hamburger */
 @media (max-width: 1131px) {
   .editorials-wrapper { justify-content: center; gap: .5rem; padding: 0 1rem; }
-
-  /* mostra o hamburger e esconde a lista por padrão */
   .editorials-hamburger { display: inline-block; }
-
-  /* transformamos a lista em um menu dropdown absoluto quando aberta */
   .editorials {
     position: absolute;
     top: 100%;
@@ -217,7 +230,7 @@
     border-radius: 8px;
     border: 2px solid #000;
     box-shadow: 5px 5px 0 #000;
-    display: none; /* visível apenas quando "open" via JS */
+    display: none;
     z-index: 9999;
     width: calc(100% - 2rem);
     max-width: 480px;
@@ -225,20 +238,16 @@
 
   .editorials.open { display: flex; }
 
-  /* reduz o tamanho dos botões */
   .editorial-btn {
     font-size: 1.4rem;
     padding: .8rem 1rem;
     text-align: center;
   }
 
-  /* slideshow e case centralizados e com margem reduzida */
   .slideshow-container { max-width: 90%; }
   .container-case { max-width: 90%; margin: 1.5rem auto; padding: 0 1rem; }
 }
 
-/* alternativa: permitir scroll horizontal em telas intermediárias (opcional)
-   caso prefira não usar hamburger em tamanhos maiores */
 @media (min-width: 1132px) and (max-width: 1250px) {
   .editorials { gap: 1.25rem; overflow-x: auto; padding-bottom: .5rem; }
   .editorials li { flex: 0 0 auto; }

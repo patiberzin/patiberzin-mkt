@@ -62,6 +62,25 @@
       display: none;
     }
 
+    .container-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: linear-gradient(90deg, var(--cor-terciaria), var(--cor-secundaria));
+    color: var(--cor-branco);
+    align-items: center;
+}
+
+.p-footer,
+.lista-footer a {
+  display: flex;
+  align-items: center;
+}
+
+.lista-footer a:hover {
+  transform: translate(-1px, -1px);
+}
+
     /*RESPONSIVO*/
 
     @media (max-width: 1250px) {
