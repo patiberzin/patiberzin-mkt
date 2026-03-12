@@ -140,12 +140,16 @@
 .container-footer {
     display: flex;
     justify-content: space-between;
-    padding: 2rem;
+    padding: 1rem;
     background: linear-gradient(90deg, var(--cor-terciaria), var(--cor-secundaria));
     color: var(--cor-branco);
+    align-items: center;
 }
 
- /*Responsivo*/
+.p-footer {
+  display: flex;
+  align-items: center;
+}
   
       /*Responsivo*/
 
