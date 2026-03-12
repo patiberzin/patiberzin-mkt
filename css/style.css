@@ -146,7 +146,8 @@
     align-items: center;
 }
 
-.p-footer {
+.p-footer,
+.lista-footer a {
   display: flex;
   align-items: center;
 }
