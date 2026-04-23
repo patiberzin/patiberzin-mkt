@@ -83,7 +83,6 @@
 }
 
 .card-purple {
-    background-color: var(--cor-terciaria);
     border: 3px solid var(--cor-preto);
     padding: 2.5rem 2rem;
     flex: 1;
@@ -127,7 +126,6 @@
 }
 
 .card-lp {
-    background-color: var(--cor-terciaria);
     border: 3px solid var(--cor-preto);
     padding: 5rem 2rem;
 }

@@ -2,6 +2,14 @@
     margin-bottom: 2rem;
 }
 
+.marca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
 .posts-container {
     max-width: 900px;
     margin: 60px auto;
