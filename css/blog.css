@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background: linear-gradient(90deg, var(--cor-terciaria), var(--cor-secundaria));
+    background-color: var(--cor-secundaria);
     color: var(--cor-branco);
     align-items: center;
 }

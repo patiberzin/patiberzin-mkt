@@ -1,12 +1,12 @@
 :root {
     --cor-principal: #d8b4fe;
-    --cor-secundaria: #fc9979;
-    --cor-terciaria: #8261db;
-    --cor-intermediaria: #e56a22;
-    --cor-hover: #c65922;
+    --cor-secundaria: #6b3611; /*alterada a cor*/
+    --cor-terciaria: #fdd97b;
+    --cor-intermediaria: #f98d1a;
+    --cor-hover: #f98d1a;
     --cor-verde: #32cfcd;
-    --cor-fundo: #fffdf9;
+    --cor-fundo: #fef0da;
     --cor-branco: #fff;
     --cor-preto: #000;
-    --cor-roxo: #d09bf5;
+    --cor-roxo: #f98d1a; /*alterada a cor*/
   }

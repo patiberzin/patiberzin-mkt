@@ -1,5 +1,13 @@
 /* Menu */
 
+.marca {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+}
+
 .container-menu {
     display: flex;
     justify-content: space-between;
@@ -29,7 +37,8 @@
     display: flex;
     justify-content: space-around;
     padding: 3.75rem;
-    background: linear-gradient(90deg, var(--cor-roxo), var(--cor-secundaria));
+    background-color: var(--cor-secundaria);
+    color: #fff;
 }
 
 .titles {
@@ -37,8 +46,9 @@
 }
 
 .titles h1 {
-    font-family: "Young Serif", serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 2.5rem;
+    margin-bottom: 16px;
 }
 
 .titles p {
@@ -73,7 +83,7 @@
 }
 
 .card-purple {
-    background-color: var(--cor-principal);
+    background-color: var(--cor-terciaria);
     border: 3px solid var(--cor-preto);
     padding: 2.5rem 2rem;
     flex: 1;
@@ -90,7 +100,7 @@
 .card-white h3,
 .card-lp h3,
 .card-content h3 {
-    font-family: "Big Shoulders", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
     font-size: 2rem;
     font-weight: bold;
 }
@@ -117,7 +127,7 @@
 }
 
 .card-lp {
-    background-color: var(--cor-principal);
+    background-color: var(--cor-terciaria);
     border: 3px solid var(--cor-preto);
     padding: 5rem 2rem;
 }
@@ -141,7 +151,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background: linear-gradient(90deg, var(--cor-terciaria), var(--cor-secundaria));
+    background-color: var(--cor-secundaria);
     color: var(--cor-branco);
     align-items: center;
 }
