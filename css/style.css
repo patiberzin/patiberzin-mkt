@@ -38,6 +38,7 @@
     justify-content: space-around;
     padding: 3.75rem;
     background-color: var(--cor-secundaria);
+    color: #fff;
 }
 
 .titles {
@@ -88,7 +89,6 @@
 }
 
 .card-white {
-    background-color: var(--cor-branco);
     border: 3px solid var(--cor-preto);
     padding: 2.5rem 2rem;
     flex: 1;
