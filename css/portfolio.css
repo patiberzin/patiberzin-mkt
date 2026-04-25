@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   font-family: "Roboto Condensed", sans-serif;
-  font-weight: 400;
+  font-weight: bold;
 }
 
 .titles {
@@ -17,7 +17,9 @@
 }
 
 .titles h1 {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Croissant One", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 3rem;
 }
 
