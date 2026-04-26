@@ -275,10 +275,16 @@
   
     .titles {
       max-width: 100%;
+      text-align: center;
     }
   
     .titles h1 {
       font-size: 1.6rem;
+
+    }
+
+    .h1 {
+      text-align: left !important;
     }
 
     .titles p {
