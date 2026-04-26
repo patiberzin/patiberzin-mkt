@@ -279,12 +279,7 @@
     }
   
     .titles h1 {
-      font-size: 1.6rem;
-
-    }
-
-    .h1 {
-      text-align: left !important;
+      line-height: 2rem;
     }
 
     .titles p {
