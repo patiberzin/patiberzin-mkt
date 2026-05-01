@@ -1,11 +1,11 @@
 :root {
     --cor-principal: #d8b4fe;
-    --cor-secundaria: #6b3611; /*alterada a cor*/
+    --cor-secundaria: #465798; /*alterada a cor*/
     --cor-terciaria: #fdd97b;
-    --cor-intermediaria: #f98d1a;
-    --cor-hover: #f98d1a;
+    --cor-intermediaria: #465798;
+    --cor-hover: #99bcff;
     --cor-verde: #32cfcd;
-    --cor-fundo: #fef0da;
+    --cor-fundo: #fef0dd;
     --cor-branco: #fff;
     --cor-preto: #000;
     --cor-roxo: #f98d1a; /*alterada a cor*/
