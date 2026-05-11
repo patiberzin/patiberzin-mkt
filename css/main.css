@@ -104,20 +104,6 @@
     }
     
     @media (max-width: 892px) {
-      .container-header {
-        flex-direction: column;
-        align-items: center;
-        padding: 2rem;
-      }
-    
-      .container-header img {
-        display: none;
-      }
-    
-      .titles {
-        max-width: 100%;
-        text-align: center;
-      }
     
       .titles h1 {
         font-size: 1.6rem;

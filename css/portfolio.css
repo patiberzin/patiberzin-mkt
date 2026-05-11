@@ -300,8 +300,8 @@
 
 @media (max-width: 892px) {
   .container-header {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    justify-content: space-around;
     padding: 2rem;
   }
 
@@ -312,7 +312,7 @@
   }
 
   .titles {
-    max-width: 100%;
+    max-width: 50%;
     text-align: left;
   }
 
