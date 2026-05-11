@@ -306,9 +306,8 @@
   }
 
   .container-header img {
-    width: 100%;
-    max-width: 280px;
-    height: auto;
+    width: 180px;
+    height: 175px;
   }
 
   .titles {
