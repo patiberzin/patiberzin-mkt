@@ -21,6 +21,53 @@
   font-weight: bold;
 }
   
+/*Dropdown menu*/
+
+/* DROPDOWN BLOG */
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: var(--cor-preto);
+}
+
+.dropdown-toggle:hover {
+  color: var(--cor-intermediaria);
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  min-width: 220px;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  z-index: 999;
+}
+
+.dropdown-menu li {
+  margin-bottom: 0.5rem;
+}
+
+.dropdown-menu li a {
+  font-size: 1.2rem;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
   /*Detalhes linhas*/
   
   .line-purple,
