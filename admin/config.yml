@@ -1,6 +1,0 @@
-backend:
-  name: github
-  repo: SEU_USUARIO/SEU_REPOSITORIO
-  branch: main
-
-

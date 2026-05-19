@@ -5,8 +5,6 @@ description: 'Vai fazer a análise de concorrentes da sua empresa? Entenda a fun
 pubDate: 'May 19 2026'
 ---
 
-#O que é Benchmarking, como fazer e planilha gratuita
-
 Vai fazer a análise de concorrentes da sua empresa? Entenda a fundo o que é Benchmarking e comece a colocar em prática hoje mesmo!
 
 Para entender o seu diferencial em relação aos seus concorrentes, você precisa saber o que é Benchmarking e como fazer. Durante a sua pesquisa, você encontrará brechas no mercado para desenvolver ideias inovadoras, economizar tempo, recursos e direcionar esforços.
@@ -23,7 +21,7 @@ Benchmarking é só a ponta do iceberg. Uma pesquisa completa de mercado, é o q
 
 Vem comigo para aprender mais sobre estratégias de conteúdo e tecnologia.
 
-##O que é e para que serve Benchmarking?
+## O que é e para que serve Benchmarking?
 
 A tradução literal é avaliação comparativa. Esta pesquisa permite analisar e comparar o tipo e a qualidade dos seus produtos/serviços/processos, bem como os pontos fortes e fracos, oportunidades e melhorias, com os dois tipos de concorrentes da sua empresa: diretos e indiretos.
 
@@ -44,7 +42,7 @@ Agora que você já aprendeu o que é Benchmarking, deve querer saber qual a dif
 
 Enquanto o Benchmarking compara o desempenho entre empresas, os KPIs monitoram o desempenho do planejamento estratégico e de objetivos pré-definidos.
 
-##Tipos de Benchmarking para UX e MKT
+## Tipos de Benchmarking para UX e MKT
 
 Existem dois tipos de Benchmarking que podem ser usados para pesquisas tanto de UX quanto de Marketing, são eles: interno e externo. O foco deste texto é o externo, para que você possa comparar e adequar o design da sua comunicação nos diferentes tipos de plataformas digitais.
 
@@ -79,7 +77,7 @@ Você pode colocar na tabela, aquilo que quer comparar entre sua empresa e os co
 
 Link da tabela para você baixar em Arquivo – Fazer download: [Clique aqui para download](https://docs.google.com/spreadsheets/d/1MOep746xnMuE6OpPWbN-vA72ko-lZVkr/edit?usp=sharing&ouid=106620632193213749403&rtpof=true&sd=true)
 
-##Conselhos extras
+## Conselhos extras
 
 Coloque em prática agora mesmo seguindo as seguintes etapas:
 

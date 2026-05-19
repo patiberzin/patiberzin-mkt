@@ -1,7 +1,6 @@
 ---
 import { getCollection } from 'astro:content';
 
-// 🧪 ROTAS FIXAS (teste seguro — depois você pode voltar ao dinâmico)
 export async function getStaticPaths() {
   return [
     { params: { category: "conteudo" } },
@@ -10,13 +9,9 @@ export async function getStaticPaths() {
   ];
 }
 
-// 👉 categoria vinda da URL
 const { category } = Astro.params;
-
-// 👉 pega todos os posts
 const posts = await getCollection('blog');
 
-// 🔥 FILTRO CORRIGIDO (remove espaços, acentos e diferenças invisíveis)
 const filteredPosts = posts.filter((post) => {
   const postCategory = String(post.data.category ?? "")
     .normalize("NFD")
@@ -32,36 +27,21 @@ const filteredPosts = posts.filter((post) => {
 
   return postCategory === currentCategory;
 });
+
+const base = import.meta.env.BASE_URL;
 ---
 
 <h1>{category}</h1>
 
 {filteredPosts.length === 0 ? (
-  <div>
-    <p>Nenhum post encontrado nesta categoria ainda.</p>
-
-    <!-- DEBUG (pode apagar depois) -->
-    <p>Total de posts carregados: {posts.length}</p>
-
-    <h2>Posts disponíveis:</h2>
-    <ul>
-      {posts.map((post) => (
-        <li>
-          {post.data.title} — {post.data.category}
-        </li>
-      ))}
-    </ul>
-  </div>
+  <p>Nenhum post encontrado nesta categoria ainda.</p>
 ) : (
   <div class="grid">
     {filteredPosts.map((post) => (
       <div class="card">
         <h2>{post.data.title}</h2>
         <p>{post.data.description}</p>
-
-        <a href={`/blog/${post.id}/`}>
-          Ler artigo
-        </a>
+        <a href={`${base}blog/${post.id}/`}>Ler mais</a>
       </div>
     ))}
   </div>
