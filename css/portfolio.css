@@ -13,7 +13,7 @@
 }
 
 .titles {
-    max-width: 40%;
+    max-width: 50%;
 }
 
 .titles h1 {
@@ -71,6 +71,7 @@
     flex-direction: column;
     align-items: flex-start;
     max-width: 556px;
+    padding: 30px;
     width: 100%;
     background-color: var(--cor-branco);
     border: 3px solid var(--cor-preto);
