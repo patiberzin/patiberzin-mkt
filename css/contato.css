@@ -24,6 +24,13 @@
   font-weight: bold;
 }
 
+.img-eu {
+  border: 3px solid var(--cor-preto);
+    border-radius: 10px;
+    border: 2px solid #0d0e0d;
+    box-shadow: 5px 5px 0 #0d0e0d;
+}
+
 /*Formulário*/
 
 body {
@@ -36,8 +43,8 @@ body {
     padding: 30px;
     background-color: var(--cor-roxo);
     border-radius: 10px;
-    border: 2px solid #000;
-    box-shadow: 5px 5px 0 #000;
+    border: 2px solid #0d0e0d;
+    box-shadow: 5px 5px 0 #0d0e0d;
     }
     
     h2 {
@@ -64,7 +71,7 @@ body {
     width: 100%;
     padding: 12px;
     box-sizing: border-box;
-    border: 2px solid #000;
+    border: 2px solid #0d0e0d;
     border-radius: 5px;
     background-color: #e2e8f0;
     font-size: 1rem;
@@ -82,20 +89,20 @@ body {
     width: 100%;
     padding: 15px;
     background-color: #ff8a65; 
-    color: #000; 
+    color: #0d0e0d; 
     font-size: 1.2rem;
     font-weight: bold;
-    border: 2px solid #000;
+    border: 2px solid #0d0e0d;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 3px 3px 0 #000;
+    box-shadow: 3px 3px 0 #0d0e0d;
     transition: all 0.2s ease-in-out;
     }
     
     .submit-btn:hover {
     background-color: #f77f52; 
     transform: translate(-1px, -1px);
-    box-shadow: 4px 4px 0 #000;
+    box-shadow: 4px 4px 0 #0d0e0d;
     }
 
     /*Final*/

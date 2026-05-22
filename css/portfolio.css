@@ -39,8 +39,8 @@
   padding: 2rem 5rem;
   background-color: var(--cor-principal);
   border-radius: 10px;
-  border: 2px solid #000;
-  box-shadow: 5px 5px 0 #000;
+  border: 2px solid #0d0e0d;
+  box-shadow: 5px 5px 0 #0d0e0d;
 }
 
 .container-portfolio {
@@ -76,8 +76,8 @@
     background-color: var(--cor-branco);
     border: 3px solid var(--cor-preto);
     border-radius: 10px;
-    border: 2px solid #000;
-    box-shadow: 5px 5px 0 #000;
+    border: 2px solid #0d0e0d;
+    box-shadow: 5px 5px 0 #0d0e0d;
   }
   
   .card-item img {
@@ -138,12 +138,12 @@
 .editorials-hamburger {
   display: none;
   background: none;
-  border: 2px solid #000;
+  border: 2px solid #0d0e0d;
   padding: 0.6rem 0.9rem;
   border-radius: 8px;
   font-size: 1.6rem;
   cursor: pointer;
-  box-shadow: 5px 5px 0 #000;
+  box-shadow: 5px 5px 0 #0d0e0d;
 }
 
 /* lista - desktop */
@@ -164,8 +164,8 @@
   font-weight: bold;
   color: var(--cor-preto);
   border-radius: 10px;
-  border: 2px solid #000;
-  box-shadow: 5px 5px 0 #000;
+  border: 2px solid #0d0e0d;
+  box-shadow: 5px 5px 0 #0d0e0d;
   cursor: pointer;
   background: transparent;
   transition: background-color 0.2s, transform 0.06s;
@@ -240,8 +240,8 @@
     background: var(--cor-terciaria);
     padding: 1rem;
     border-radius: 8px;
-    border: 2px solid #000;
-    box-shadow: 5px 5px 0 #000;
+    border: 2px solid #0d0e0d;
+    box-shadow: 5px 5px 0 #0d0e0d;
     display: none;
     z-index: 9999;
     width: calc(100% - 2rem);

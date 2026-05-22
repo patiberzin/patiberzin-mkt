@@ -97,20 +97,20 @@
       display: inline-block;
       padding: 15px 30px;
       background-color: #ff8a65; 
-      color: #000; 
+      color: #0d0e0d; 
       font-size: 2rem;
       font-weight: bold;
-      border: 2px solid #000;
+      border: 2px solid #0d0e0d;
       border-radius: 5px;
       cursor: pointer;
-      box-shadow: 3px 3px 0 #000;
+      box-shadow: 3px 3px 0 #0d0e0d;
       transition: all 0.2s ease-in-out;
     }
     
     .btn:hover {
       background-color: #f77f52; 
       transform: translate(-1px, -1px);
-      box-shadow: 4px 4px 0 #000;
+      box-shadow: 4px 4px 0 #0d0e0d;
     }
 
     .hamburger {
