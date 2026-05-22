@@ -1,94 +1,67 @@
-.container-header p {
-    margin-bottom: 2rem;
+/* =============================================
+   BLOG.CSS — estilos específicos das páginas
+   de posts individuais. Depende de main.css
+   e portfolio.css.
+   ============================================= */
+
+/* ── Fundo da página de post ──────────────── */
+
+.page-color {
+  background-color: var(--cor-amarelo);
+  padding-top: var(--espacamento-secao);
+  padding-bottom: var(--espacamento-secao);
 }
 
-.marca {
+/* ── Card do post ─────────────────────────── */
+
+.post {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
   align-items: center;
-  font-family: "Archivo", sans-serif;
-  font-weight: bold;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 600px;
+  padding: 30px;
+  width: 100%;
+  background-color: var(--cor-branco);
+  border: 2px solid #0d0e0d;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 #0d0e0d;
 }
+
+.post h1,
+.post h2,
+.post h3 {
+  margin-bottom: 20px;
+}
+
+.post img {
+  margin-bottom: 16px;
+}
+
+.post p {
+  margin-bottom: 16px;
+}
+
+.post b {
+  color: #e35a13;
+}
+
+/* ── Lista comum ──────────────────────────── */
+
+.lista-comum {
+  list-style: disc;
+  padding-left: 40px;
+  margin-bottom: 16px;
+}
+
+.lista-comum li {
+  list-style: disc;
+}
+
+/* ── Container de posts ───────────────────── */
 
 .posts-container {
-    max-width: 900px;
-    margin: 60px auto;
+  max-width: 900px;
+  margin: var(--espacamento-secao) auto;
 }
-
-.container-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    background-color: var(--cor-secundaria);
-    color: var(--cor-branco);
-    align-items: center;
-}
-
-.p-footer,
-.lista-footer a {
-  display: flex;
-  align-items: center;
-}
-
-.lista-footer a:hover {
-  transform: translate(-1px, -1px);
-}
-
-/*RESPONSIVO*/
-
-@media (max-width: 1250px) {
-    .btn {
-    padding: 1rem 2rem;
-      font-family: "Archivo", sans-serif;
-      font-size: 1.6rem;
-    }
-  }
-  
-  @media (max-width: 1184px) {
-    .titles p {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      font-weight: 400;
-    }  
-  
-    .titles h1 {
-      font-size: 2rem;
-  }
-  }
-  
-  @media (max-width: 892px) {
-  .container-header {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
-  }
-
-   .container-header img {
-    width: 160px;
-    height: 155px;
-  }
-
-  .titles {
-    max-width: 50%;
-    text-align: left;
-  }
-  
-    .titles h1 {
-      font-size: 1.6rem;
-    }
-
-    .titles p {
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-
-    .btn {
-      font-size: 1rem;
-      padding: 0.75rem 1.5rem;
-    }
-  
-    .container-btn {
-      margin-top: 1rem;
-    }
-
-  }

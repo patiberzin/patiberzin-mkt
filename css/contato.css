@@ -1,234 +1,148 @@
+/* =============================================
+   CONTATO.CSS — estilos específicos da página
+   de contato/sobre. Depende de main.css.
+   ============================================= */
+
+/* ── Seção sobre ──────────────────────────── */
+
 .sobre {
-    max-width: 80%;
-    margin: 60px auto;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 1rem;
+  max-width: 80%;
+  margin: var(--espacamento-secao) auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 1rem;
 }
 
 .sobre-ps {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .sobre-ps p {
-    margin-bottom: 2rem;
-    font-family: "Archivo", sans-serif;
-    font-size: 1.4rem;
-}
-
-.marca {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Archivo", sans-serif;
-  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
 }
 
 .img-eu {
-  border: 3px solid var(--cor-preto);
-    border-radius: 10px;
-    border: 2px solid #0d0e0d;
-    box-shadow: 5px 5px 0 #0d0e0d;
+  border: 2px solid #0d0e0d;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 #0d0e0d;
 }
 
-/*Formulário*/
+/* ── Formulário ───────────────────────────── */
 
-body {
-    font-family: "Archivo", sans-serif;
-    }
-    
-    .form-container {
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 30px;
-    background-color: var(--cor-amarelo);
-    border-radius: 10px;
-    border: 2px solid #0d0e0d;
-    box-shadow: 5px 5px 0 #0d0e0d;
-    }
-    
-    h2 {
-    text-align: center;
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 30px;
-    }
-    
-    .form-group {
-    margin-bottom: 20px;
-    }
-    
-    label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 8px;
-    font-size: 1rem;
-    }
-    
-    input[type="text"],
-    input[type="email"],
-    input[type="tel"] {
-    width: 100%;
-    padding: 12px;
-    box-sizing: border-box;
-    border: 2px solid var(--cor-preto);
-    border-radius: 5px;
-    background-color: var(--cor-branco);
-    font-size: 1rem;
-    }
-    
-    .form-description {
-    text-align: center;
-    font-size: 0.9rem;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    }
-    
-    .submit-btn {
-    display: block;
-    width: 100%;
-    padding: 15px;
-    background-color: var(--cor-laranja); 
-    color: #0d0e0d; 
-    font-size: 1.2rem;
-    font-weight: bold;
-    border: 2px solid #0d0e0d;
-    border-radius: 5px;
-    cursor: pointer;
-    box-shadow: 3px 3px 0 #0d0e0d;
-    transition: all 0.2s ease-in-out;
-    }
-    
-    .submit-btn:hover {
-    background-color: var(--cor-destaque); 
-    transform: translate(-1px, -1px);
-    box-shadow: 4px 4px 0 #0d0e0d;
-    }
-
-    /*Final*/
-
-    .finish {
-        max-width: 60%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-    }
-
-    .finish h2 {
-        font-family: "Big Shoulders", sans-serif;
-        font-size: 3rem;
-  
-    }
-
-    .container-footer {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    background-color: var(--cor-azul);
-    color: var(--cor-branco);
-    align-items: center;
+.form-container {
+  max-width: 500px;
+  margin: var(--espacamento-secao) auto;
+  padding: 30px;
+  background-color: var(--cor-amarelo);
+  border-radius: 10px;
+  border: 2px solid #0d0e0d;
+  box-shadow: 5px 5px 0 #0d0e0d;
 }
 
-.p-footer,
-.lista-footer a {
-  display: flex;
-  align-items: center;
+.form-container h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
 }
 
-.lista-footer a:hover {
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  width: 100%;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid var(--cor-preto);
+  border-radius: 5px;
+  background-color: var(--cor-branco);
+  font-size: 1rem;
+}
+
+.form-description {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  background-color: var(--cor-laranja);
+  color: #0d0e0d;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid #0d0e0d;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 3px 3px 0 #0d0e0d;
+  transition: all 0.2s ease-in-out;
+}
+
+.submit-btn:hover {
+  background-color: var(--cor-destaque);
   transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #0d0e0d;
 }
 
-    /*RESPONSIVO*/
+/* ── Seção final ──────────────────────────── */
 
-@media (max-width: 1250px) {
-    .btn {
-    padding: 1rem 2rem;
-      font-family: "Archivo", sans-serif;
-      font-size: 1.6rem;
-    }
-  }
-  
-  @media (max-width: 1184px) {
-    .titles h1 {
-        font-size: 2rem;
-    }
-    .titles p {
-        font-size: 1.5rem;
-        margin-bottom: 1rem;
-        font-weight: 400;
-      }    
-      .sobre {
-          display: block;
-          margin-bottom: 2rem;
-      }
-      .sobre img {
-          width: 294px;
-          height: 367px;
-          margin-bottom: 2rem;
-      }
-      .sobre-ps p {
-          font-size: 1.6rem;
-      }
+.finish {
+  max-width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: var(--espacamento-secao) auto;
+}
 
-    .finish img {
-        width: 367px;
-        height: 446px;
-    }
-  
-  }
-  
-  @media (max-width: 892px) {
-    .sobre {
-        display: block;
-    }
-    .sobre img {
-        width: 294px;
-        height: 367px;
-        margin-bottom: 1rem;
-    }
+.finish h2 {
+  font-size: 3rem;
+}
 
-    .sobre-ps p {
-        font-size: 1rem;
-    }
+/* ── Responsivo ───────────────────────────── */
 
-  .container-header {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
+@media (max-width: 1184px) {
+  .sobre {
+    display: block;
+    margin-bottom: 2rem;
   }
 
-   .container-header img {
-    width: 160px;
-    height: 155px;
+  .sobre img {
+    width: 294px;
+    height: 367px;
+    margin-bottom: 2rem;
   }
 
-  .titles {
-    max-width: 50%;
-    text-align: left;
+  .sobre-ps p {
+    font-size: 1.6rem;
   }
-  
-    .titles h1 {
-        font-size: 1.6rem;
-      }
-  
-      .titles p {
-        font-size: 1rem;
-        margin-bottom: 1rem;
-      }
+}
 
-    .finish {
-        display: none;
-    }
-
-    .btn {
-        font-size: 1rem;
-        padding: 0.75rem 1.5rem;
-      }
-    
-      .container-btn {
-        margin-top: 1rem;
-      }
-
+@media (max-width: 892px) {
+  .sobre img {
+    width: 294px;
+    height: 367px;
+    margin-bottom: 1rem;
   }
+
+  .sobre-ps p {
+    font-size: 1rem;
+  }
+
+  .finish {
+    display: none;
+  }
+}
