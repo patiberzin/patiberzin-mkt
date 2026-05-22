@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: bold;
 }
 
@@ -17,14 +17,14 @@
 }
 
 .titles h1 {
-    font-family: "Croissant One", serif;
+    font-family: "Archivo Black", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 3rem;
 }
 
 .titles p {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 2rem;
     margin-bottom: 2rem;
 }
@@ -51,7 +51,7 @@
   .container-portfolio h2,
   .sub,
   .container-contents h2 {
-    font-family: "Roboto-Condensed", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 3rem;
     text-align: center;
     margin-bottom: 3rem;
@@ -92,14 +92,14 @@
   }
   
   .item h3 {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 1.8rem;
     margin-top: 1rem;
     margin-bottom: 0.5rem;
   }
   
   .item p {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 2rem;
@@ -107,7 +107,7 @@
   
   .btn-veja {
     padding: 1rem;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 2rem;
     font-weight: bold;
     color: var(--cor-intermediaria);
@@ -159,7 +159,7 @@
 /* botões das editorias */
 .editorial-btn {
   padding: 1.125rem 2.25rem;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-size: 2rem;
   font-weight: bold;
   color: var(--cor-preto);
@@ -194,13 +194,13 @@
   }
 
   .container-case h3 {
-    font-family: "Big Shoulders", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 3rem;
     font-weight: bold;
   }
 
   .container-case p {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 1.6rem;
     margin: 3rem 1rem;
   }
@@ -275,7 +275,7 @@
 @media (max-width: 1250px) {
   .btn {
   padding: 1rem 2rem;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 1.2rem;
   }
 }

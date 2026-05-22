@@ -12,7 +12,7 @@
 
 .sobre-ps p {
     margin-bottom: 2rem;
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Archivo", sans-serif;
     font-size: 1.4rem;
 }
 
@@ -20,14 +20,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Archivo", sans-serif;
   font-weight: bold;
 }
 
 /*Formulário*/
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Archivo", sans-serif;
     }
     
     .form-container {
@@ -138,7 +138,7 @@ body {
 @media (max-width: 1250px) {
     .btn {
     padding: 1rem 2rem;
-      font-family: "Roboto Condensed", sans-serif;
+      font-family: "Archivo", sans-serif;
       font-size: 1.6rem;
     }
   }
