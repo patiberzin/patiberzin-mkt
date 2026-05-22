@@ -10,7 +10,7 @@
   
   body {
     min-height: 100vh;
-    background-color: var(--cor-fundo);
+    background-color: var(--cor-bege);
   }
 
   .marca {
@@ -40,7 +40,7 @@
 }
 
 .dropdown-toggle:hover {
-  color: var(--cor-intermediaria);
+  color: var(--cor-destaque);
 }
 
 .dropdown-menu {
@@ -77,11 +77,11 @@
   }
   
   .line-purple {
-    background-color: var(--cor-terciaria);
+    background-color: var(--cor-amarelo);
   }
   
   .line-orange {
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-laranja);
   }
   
   /*Detalhe quebra*/
@@ -96,7 +96,7 @@
       text-align: center;
       display: inline-block;
       padding: 15px 30px;
-      background-color: #ff8a65; 
+      background-color: var(--cor-laranja); 
       color: #0d0e0d; 
       font-size: 2rem;
       font-weight: bold;
@@ -108,7 +108,7 @@
     }
     
     .btn:hover {
-      background-color: #f77f52; 
+      background-color: var(--cor-destaque); 
       transform: translate(-1px, -1px);
       box-shadow: 4px 4px 0 #0d0e0d;
     }
@@ -121,7 +121,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-azul);
     color: var(--cor-branco);
     align-items: center;
 }

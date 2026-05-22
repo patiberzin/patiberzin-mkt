@@ -37,7 +37,7 @@
   max-width: 95%;
   margin: 60px auto;
   padding: 2rem 5rem;
-  background-color: var(--cor-principal);
+  background-color: var(--cor-bege);
   border-radius: 10px;
   border: 2px solid #0d0e0d;
   box-shadow: 5px 5px 0 #0d0e0d;
@@ -110,7 +110,7 @@
     font-family: "Archivo", sans-serif;
     font-size: 2rem;
     font-weight: bold;
-    color: var(--cor-intermediaria);
+    color: var(--cor-azul);
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -119,7 +119,7 @@
   }
   
 .btn-veja:hover {
-    color: var(--cor-secundaria);
+    color: var(--cor-link);
 }
   
 /*Conteúdo*/
@@ -209,7 +209,7 @@
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-azul);
     color: var(--cor-branco);
     align-items: center;
     width: 100%;
@@ -237,7 +237,7 @@
     transform: translateX(-50%);
     flex-direction: column;
     gap: 0.75rem;
-    background: var(--cor-terciaria);
+    background: var(--cor-bege);
     padding: 1rem;
     border-radius: 8px;
     border: 2px solid #0d0e0d;

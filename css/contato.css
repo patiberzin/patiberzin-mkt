@@ -41,7 +41,7 @@ body {
     max-width: 500px;
     margin: 50px auto;
     padding: 30px;
-    background-color: var(--cor-roxo);
+    background-color: var(--cor-amarelo);
     border-radius: 10px;
     border: 2px solid #0d0e0d;
     box-shadow: 5px 5px 0 #0d0e0d;
@@ -71,9 +71,9 @@ body {
     width: 100%;
     padding: 12px;
     box-sizing: border-box;
-    border: 2px solid #0d0e0d;
+    border: 2px solid var(--cor-preto);
     border-radius: 5px;
-    background-color: #e2e8f0;
+    background-color: var(--cor-branco);
     font-size: 1rem;
     }
     
@@ -88,7 +88,7 @@ body {
     display: block;
     width: 100%;
     padding: 15px;
-    background-color: #ff8a65; 
+    background-color: var(--cor-laranja); 
     color: #0d0e0d; 
     font-size: 1.2rem;
     font-weight: bold;
@@ -100,7 +100,7 @@ body {
     }
     
     .submit-btn:hover {
-    background-color: #f77f52; 
+    background-color: var(--cor-destaque); 
     transform: translate(-1px, -1px);
     box-shadow: 4px 4px 0 #0d0e0d;
     }
@@ -125,7 +125,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-azul);
     color: var(--cor-branco);
     align-items: center;
 }
