@@ -65,4 +65,19 @@
   .container-cards {
     flex-direction: column;
   }
+
+  .container-header {
+    max-width: 100%;
+  }
+}
+
+/* Só esconde abaixo de 480px, onde não cabe mesmo */
+@media (max-width: 480px) {
+  .stars-img {
+    display: none;
+  }
+
+  .titles {
+    max-width: 100%;
+  }
 }

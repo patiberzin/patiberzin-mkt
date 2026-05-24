@@ -261,18 +261,22 @@ body {
   }
 
   .container-header {
-    padding: 2rem;
-  }
+  padding: 2rem 1.5rem;
+  gap: 1.5rem;
+  justify-content: space-between; /* era space-around */
+}
 
-  .container-header img {
-    width: 160px;
-    height: 155px;
-  }
+.container-header img {
+  width: 130px;
+  height: auto;        
+  flex-shrink: 0;
+}
 
-  .titles {
-    max-width: 50%;
-    text-align: left;
-  }
+.titles {
+  max-width: unset;   
+  flex: 1;            
+  text-align: left;
+}
 
   .titles h1 {
     font-size: 1.6rem;
