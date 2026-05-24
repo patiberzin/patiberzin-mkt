@@ -161,7 +161,7 @@ input[type="tel"] {
     font-size: 1rem;
   }
 
-  .finish {
-    font-size: 0.5rem;
+  .finish h2 {
+    font-size: 1rem !important;
   }
 }
