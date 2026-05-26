@@ -202,19 +202,11 @@
   overflow: hidden;
 }
 
-/* ── Responsivo ───────────────────────────── */
+  /*Responsivo*/
 
 @media (max-width: 1131px) {
-  .editorials-wrapper {
-    justify-content: center;
-    gap: 0.5rem;
-    padding: 0 1rem;
-  }
-
-  .editorials-hamburger {
-    display: inline-block;
-  }
-
+  .editorials-wrapper { justify-content: center; gap: .5rem; padding: 0 1rem; }
+  .editorials-hamburger { display: inline-block; }
   .editorials {
     position: absolute;
     top: 100%;
@@ -233,64 +225,99 @@
     max-width: 480px;
   }
 
-  .editorials.open {
-    display: flex;
-  }
+  .editorials.open { display: flex; }
 
   .editorial-btn {
     font-size: 1.4rem;
-    padding: 0.8rem 1rem;
+    padding: .8rem 1rem;
     text-align: center;
   }
 
-  .container-case {
-    max-width: 90%;
-    margin: 1.5rem auto;
-    padding: 0 1rem;
-  }
+  .slideshow-container { max-width: 90%; }
+  .container-case { max-width: 90%; margin: 1.5rem auto; padding: 0 1rem; }
 }
 
 @media (min-width: 1132px) and (max-width: 1250px) {
-  .editorials {
-    gap: 1.25rem;
-    overflow-x: auto;
-    padding-bottom: 0.5rem;
-  }
+  .editorials { gap: 1.25rem; overflow-x: auto; padding-bottom: .5rem; }
+  .editorials li { flex: 0 0 auto; }
+  .editorials::-webkit-scrollbar { height: 8px; }
+  .editorials::-webkit-scrollbar-thumb { background: rgba(0,0,0,.2); border-radius: 6px; }
+}
 
-  .editorials li {
-    flex: 0 0 auto;
-  }
+/* acessibilidade - screen reader only */
+.sr-only { position: absolute !important; left: -9999px !important; top: auto !important; width: 1px !important; height: 1px !important; overflow: hidden; }
 
-  .editorials::-webkit-scrollbar {
-    height: 8px;
-  }
+/*RESPONSIVO*/
 
-  .editorials::-webkit-scrollbar-thumb {
-    background: rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
+@media (max-width: 1250px) {
+  .btn {
+  padding: 1rem 2rem;
+    font-family: "Archivo", sans-serif;
+    font-size: 1.2rem;
   }
 }
 
 @media (max-width: 1184px) {
+
   .container-portfolio h2,
   .container-contents h2,
   .container-case h3 {
     font-size: 2rem;
   }
+
+  .titles h1 {
+    font-size: 2rem;
+}
+
+.titles p {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}  
 }
 
 @media (max-width: 892px) {
-  .container-portfolio {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  .container-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+  }
+
+   .container-header img {
+    width: 160px;
+    height: 155px;
+  }
+
+  .titles {
+    max-width: 50%;
+    text-align: left;
+  }
+
+  .titles h1 {
+    font-size: 1.6rem;
+  }
+
+  .titles p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
   }
 
   .container-case {
-    max-width: 90%;
+    max-width: 500px;
   }
 
   .container-case p {
     font-size: 1rem;
     margin-bottom: 1rem;
   }
+
+  .btn {
+    font-size: 1rem;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .container-btn {
+    margin-top: 1rem;
+  }
+
 }
