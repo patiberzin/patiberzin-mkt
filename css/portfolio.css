@@ -278,9 +278,7 @@
 
 @media (max-width: 892px) {
   .container-header {
-    display: flex;
-    justify-content: space-around;
-    padding: 2rem;
+    max-width: 100%;
   }
 
    .container-header img {
