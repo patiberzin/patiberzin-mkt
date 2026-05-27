@@ -293,7 +293,8 @@
     text-align: left;
   }
 
-  .titles h1 {
+  .titles h1,
+  .card-item h1 {
     font-size: 1.6rem;
   }
 
