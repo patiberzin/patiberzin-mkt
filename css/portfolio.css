@@ -319,5 +319,27 @@
   .container-btn {
     margin-top: 1rem;
   }
+  .container-portfolio h2,
+  .sub {
+    font-size: 1.6rem;
+  }
+
+  .item h3 {
+    font-size: 1.1rem;
+  }
+
+  .item p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  .btn-veja {
+    font-size: 0.95rem;
+    padding: 0.6rem 1.2rem;
+  }
+
+  .card-item {
+    padding: 16px;
+  }
 
 }   

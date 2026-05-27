@@ -71,6 +71,17 @@
   .container-header {
     max-width: 100%;
   }
+    .card h3 {
+    font-size: 1.1rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    padding: 1.2rem 1rem; /* era 2.5rem 2rem */
+  }
 }
 
 /* Só esconde abaixo de 480px, onde não cabe mesmo */
