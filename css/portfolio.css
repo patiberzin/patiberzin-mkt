@@ -31,6 +31,8 @@
 }
 
 .card-item {
+  overflow: hidden; /* evita vazamento de texto inflado */
+  word-break: break-word;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -318,4 +320,4 @@
     margin-top: 1rem;
   }
 
-}
+}   

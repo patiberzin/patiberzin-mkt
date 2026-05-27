@@ -8,11 +8,21 @@
   list-style-type: none;
   text-decoration: none;
   font-family: "Archivo", sans-serif;
+  -webkit-text-size-adjust: inherit; /* herda do html */
 }
 
 body {
   min-height: 100vh;
   background-color: var(--cor-bege);
+}
+
+/* Impede que WebViews (Instagram, WhatsApp, etc.) 
+   redimensionem o texto automaticamente */
+html {
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  font-size: 16px; /* ancora o rem explicitamente */
 }
 
 /* ── Menu ─────────────────────────────────── */

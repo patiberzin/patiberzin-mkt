@@ -25,6 +25,8 @@
 }
 
 .card {
+  overflow: hidden;
+  word-break: break-word;
   background-color: var(--cor-branco);
   border: 2px solid #0d0e0d;
   border-radius: 10px;
