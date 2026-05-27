@@ -157,11 +157,24 @@ input[type="tel"] {
     margin-bottom: 1rem;
   }
 
+  .titles {
+    max-width: 90%;
+    text-align: left;
+  }
+
   .sobre-ps p {
     font-size: 1rem;
   }
 
+  .form-container h2 {
+    font-size: 1.4rem;
+  }
+
+  .container-cite h2 {
+    font-size: 1.4rem;
+  }
+
   .finish h2 {
-    font-size: 1rem !important;
+    font-size: 1.4rem !important; /* tem !important no original */
   }
 }
