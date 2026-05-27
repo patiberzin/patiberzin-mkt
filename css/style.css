@@ -73,14 +73,16 @@
   }
     .card h3 {
     font-size: 1.1rem;
+    margin-bottom: 0.4rem;
   }
 
   .card p {
     font-size: 0.9rem;
+    line-height: 1.5;
   }
 
   .card {
-    padding: 1.2rem 1rem; /* era 2.5rem 2rem */
+    padding: 1rem;
   }
 }
 
