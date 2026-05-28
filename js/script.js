@@ -1,9 +1,9 @@
-document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener('DOMContentLoaded', function () {
   /* =========================
      SLIDESHOW (se houver)
      ========================= */
   let slideIndex = 0;
-  const slides = document.getElementsByClassName("slide");
+  const slides = document.getElementsByClassName('slide');
 
   function showSlides(n) {
     if (!slides || slides.length === 0) return;
@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
     else slideIndex = n;
 
     for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
+      slides[i].style.display = 'none';
     }
-    slides[slideIndex].style.display = "block";
+    slides[slideIndex].style.display = 'block';
   }
 
   function plusSlides(n) {
@@ -30,13 +30,13 @@ document.addEventListener("DOMContentLoaded", function () {
   /* =========================
      MENU HAMBURGUER
      ========================= */
-  const hamburger = document.getElementById("hamburger");
-  const navMenu = document.getElementById("nav-menu");
+  const hamburger = document.getElementById('hamburger');
+  const navMenu = document.getElementById('nav-menu');
 
   if (hamburger && navMenu) {
-    hamburger.addEventListener("click", function () {
+    hamburger.addEventListener('click', function () {
       // usamos "active" porque você já ajustou o CSS para isso
-      navMenu.classList.toggle("active");
+      navMenu.classList.toggle('active');
     });
   }
 
@@ -52,11 +52,13 @@ document.addEventListener("DOMContentLoaded", function () {
   const editorialToggle = document.getElementById('editorialToggle');
   const editorialsList = document.getElementById('editorialsList');
   const editorialBtns = document.querySelectorAll('.editorial-btn');
-  const editorialSections = document.querySelectorAll('.editorial-section[data-section]');
+  const editorialSections = document.querySelectorAll(
+    '.editorial-section[data-section]',
+  );
 
   // helper: mostra a section com id
   function showSection(id) {
-    editorialSections.forEach(sec => {
+    editorialSections.forEach((sec) => {
       if (sec.id === id) {
         sec.removeAttribute('hidden');
         sec.classList.add('ativo');
@@ -82,10 +84,10 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   // click nos botões de editorial
-  editorialBtns.forEach(btn => {
+  editorialBtns.forEach((btn) => {
     btn.addEventListener('click', function (e) {
       // atualiza visual dos botões
-      editorialBtns.forEach(b => {
+      editorialBtns.forEach((b) => {
         b.classList.remove('ativa');
         b.setAttribute('aria-selected', 'false');
       });
@@ -112,7 +114,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // fecha o menu se clicar fora (melhora UX)
     document.addEventListener('click', function (e) {
-      if (!editorialsList.contains(e.target) && e.target !== editorialToggle && editorialsList.classList.contains('open')) {
+      if (
+        !editorialsList.contains(e.target) &&
+        e.target !== editorialToggle &&
+        editorialsList.classList.contains('open')
+      ) {
         editorialsList.classList.remove('open');
         editorialToggle.setAttribute('aria-expanded', 'false');
       }
@@ -120,5 +126,19 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 })();
 
+/*CARROSSEL*/
 
+// Carrossel com botões
+const carousel = document.querySelector('.checklist-carousel');
+const btnPrev = document.querySelector('.carousel-btn-prev');
+const btnNext = document.querySelector('.carousel-btn-next');
 
+if (carousel && btnPrev && btnNext) {
+  btnNext.addEventListener('click', () => {
+    carousel.scrollBy({ left: 300, behavior: 'smooth' });
+  });
+
+  btnPrev.addEventListener('click', () => {
+    carousel.scrollBy({ left: -300, behavior: 'smooth' });
+  });
+}
