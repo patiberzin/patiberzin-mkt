@@ -47,6 +47,12 @@
   list-style: disc;
 }
 
+.img-post {
+  width: 100%;
+  max-width: 556px;
+  height: auto;
+}
+
 /*CARROSSEL*/
 
 .checklist-carousel-wrapper {
@@ -111,6 +117,7 @@
 }
 
 /* Esconde as setas no mobile — swipe já resolve */
+
 @media (max-width: 768px) {
   .carousel-btn {
     display: none;
