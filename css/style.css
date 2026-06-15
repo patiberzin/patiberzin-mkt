@@ -43,7 +43,26 @@
 
 .card p {
   font-size: 1rem;
-  line-height: 1.6;
+  border: 3px solid var(--cor-laranja);
+  border-radius: 5px;
+  padding: 16px;
+  margin-bottom: 10px;
+}
+
+.lista-comum {
+  list-style: disc;
+  margin-bottom: 16px;
+  padding-left: 40px !important;
+}
+
+.lista-comum li {
+  list-style-type: disc;
+}
+
+.borda-lista {
+  border: 3px solid var(--cor-laranja);
+  padding: 16px;
+  border-radius: 5px;
 }
 
 /* ── Responsivo ───────────────────────────── */
