@@ -43,7 +43,7 @@
 
 .card p {
   font-size: 1rem;
-  border: 3px solid var(--cor-laranja);
+  border: 3px solid var(--cor-preto);
   border-radius: 5px;
   padding: 16px;
   margin-bottom: 10px;
@@ -60,7 +60,7 @@
 }
 
 .borda-lista {
-  border: 3px solid var(--cor-laranja);
+  border: 3px solid var(--cor-preto);
   padding: 16px;
   border-radius: 5px;
 }
