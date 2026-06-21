@@ -50,6 +50,7 @@
 }
 
 .lista-comum {
+  font-size: 1rem;
   list-style: disc;
   margin-bottom: 16px;
   padding-left: 40px !important;
