@@ -9,7 +9,7 @@
   max-width: 80%;
   margin: var(--espacamento-secao) auto;
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
   align-items: center;
 }
 
