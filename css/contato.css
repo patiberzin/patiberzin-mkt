@@ -8,13 +8,17 @@
 .sobre {
   max-width: 80%;
   margin: var(--espacamento-secao) auto;
-  display: flex;
-  justify-content: space-around;
-  gap: 1rem;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  grid-template-rows: auto auto;
+  column-gap: 50px;
+  align-items: start;
 }
 
 .sobre-ps {
   margin-bottom: 3rem;
+  grid-column: 2;
+  grid-row: 1 / 3;
 }
 
 .sobre-ps p {
@@ -23,10 +27,47 @@
 }
 
 .img-eu {
+  grid-column: 1;
+  grid-row: 1;
+  position: relative;
+  z-index: 1;
   border: 2px solid #0d0e0d;
   border-radius: 10px;
   box-shadow: 5px 5px 0 #0d0e0d;
-  margin-right: 16px;
+}
+
+.container-cite {
+  grid-column: 1;
+  grid-row: 2;
+  position: relative;
+  z-index: 3;
+
+  width: 400px;
+  margin-top: -20px;
+  margin-left: 70px;
+
+  padding: 20px 25px;
+  background-color: var(--cor-azul);
+  color: var(--cor-branco);
+  border: 2px solid #0d0e0d;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 #0d0e0d;
+}
+
+.container-cite h2 {
+  font-size: 1.6rem;
+  font-family: "Archivo Black", sans-serif;
+  margin-bottom: 10px;
+}
+
+.container-cite .cite p {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.container-cite figcaption {
+  font-size: 0.8rem;
+  margin-top: 10px;
 }
 
 /* ── Formulário ───────────────────────────── */
@@ -113,25 +154,6 @@ input[type="tel"] {
   font-size: 3rem;
 }
 
-.container-cite {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 600px;
-  background-color: var(--cor-azul);
-  color: var(--cor-branco);
-  padding: 30px;
-  gap: 10px;
-  border: 2px solid #0d0e0d;
-  border-radius: 10px;
-  box-shadow: 5px 5px 0 #0d0e0d;
-}
-
-.container-cite h2 {
-  font-size: 2rem;
-  font-family: "Archive Black", sans-serif;
-}
-
 /* ── Responsivo ───────────────────────────── */
 
 @media (max-width: 1184px) {
@@ -148,6 +170,12 @@ input[type="tel"] {
 
   .sobre-ps p {
     font-size: 1.6rem;
+  }
+
+  .container-cite {
+    width: 240px;
+    margin-left: 60px;
+    margin-top: -40px;
   }
 }
 
@@ -169,6 +197,12 @@ input[type="tel"] {
 
   .form-container h2 {
     font-size: 1.4rem;
+  }
+
+  .container-cite {
+    width: 200px;
+    margin-left: 40px;
+    margin-top: -30px;
   }
 
   .container-cite h2 {
