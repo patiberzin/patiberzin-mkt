@@ -301,6 +301,7 @@
   .titles p {
     font-size: 1rem;
     margin-bottom: 1rem;
+    max-width: 60%;
   }
 
   .container-case {
