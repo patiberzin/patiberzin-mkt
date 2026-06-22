@@ -5,12 +5,19 @@
 
 /* ── Seção sobre ──────────────────────────── */
 
-.sobre {
-  max-width: 80%;
-  margin: var(--espacamento-secao) auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+.sobre{
+    max-width: 1100px;
+    margin: var(--espacamento-secao) auto;
+
+    display:flex;
+    gap:60px;
+    align-items:flex-start;
+    justify-content:center;
+}
+
+.sobre > div:first-child{
+    width:300px;
+    flex-shrink:0;
 }
 
 .sobre-ps {
@@ -41,6 +48,7 @@
   box-shadow: 5px 5px 0 #0d0e0d;
   padding: 20px;
   margin-bottom: 2rem;
+  width: 400px;
 }
 
 .cite h2 {
