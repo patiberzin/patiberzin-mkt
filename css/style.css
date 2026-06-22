@@ -104,6 +104,11 @@
   .card {
     padding: 2rem;
   }
+
+  .borda-lista {
+    margin-bottom: 16px;
+  }
+
 }
 
 /* Só esconde abaixo de 480px, onde não cabe mesmo */
