@@ -14,10 +14,11 @@
 
 .sobre-ps {
   margin: 0 auto;
-  max-width: 700px;
+  max-width: 400px;
 }
 
 .sobre-ps p {
+  font-size: 1.6rem;
   line-height: 1.4;
   margin-bottom: 16px;
 }
