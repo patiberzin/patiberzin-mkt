@@ -19,6 +19,7 @@
   margin-bottom: 3rem;
   grid-column: 2;
   grid-row: 1 / 3;
+  max-width: 700px;
 }
 
 .sobre-ps p {
@@ -61,12 +62,13 @@
 }
 
 .container-cite .cite p {
-  font-size: 0.8rem;
+  font-size: 1rem;        
   margin: 0;
+  line-height: 1.4;
 }
 
 .container-cite figcaption {
-  font-size: 0.8rem;
+  font-size: 0.95rem;     
   margin-top: 10px;
 }
 
