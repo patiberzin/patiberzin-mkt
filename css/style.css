@@ -5,12 +5,6 @@
 
 /* ── Serviços / Cards ─────────────────────── */
 
-.subtitulo-servicos {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-}
-
 .container-pieces {
   max-width: 60%;
   margin: var(--espacamento-secao) auto;
