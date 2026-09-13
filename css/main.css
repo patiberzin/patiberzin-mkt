@@ -196,6 +196,7 @@ html {
 .lista-footer a {
   display: flex;
   align-items: center;
+  margin-right: 16px;
 }
 
 .lista-footer a:hover {

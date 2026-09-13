@@ -3,6 +3,11 @@
    (index.html). Depende de main.css.
    ============================================= */
 
+.lista-footer {
+  display: flex;
+  margin-left: 16px;
+}
+
 /* ── Serviços / Cards ─────────────────────── */
 
 .container-pieces {
